@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Gallery</title>
+  <style>
+    body {
+      background-color: #f3f3f3;
+      font-family: Arial, sans-serif;
+    }
+
+    .gallery-container {
+      width: 80%;
+      margin: auto;
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .gallery-title {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      border: 2px solid black;
+      background-color: black;
+      color: white;
+      padding: 10px;
+      border-radius: 15px;
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+
+    .photo-grid img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border: 2px solid #ccc;
+      border-radius: 15px;
+    }
+
+    .photo-grid div {
+      background-color: #e0e0e0;
+      border-radius: 15px;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery-container">
+    <div class="gallery-title">Photo Gallery</div>
+    <div class="photo-grid">
+      <img src="C:\Users\Harsh\OneDrive\Desktop\Summer internship\HTML_7\banff-national-park-lake-minnewanka-600nw-2527379207.webp" alt="Image 1">
+      <img src="banff-national-park-lake-minnewanka-600nw-2527379207.webp" alt="Image 2">
+      <img src="fuji-mountain-kawaguchiko-lake-morning-autumn-seasons-fuji-mountain-yamanachi-japan_335224-102.AVIF" alt="Image 3">
+      <div></div>
+      <div></div>
+      <img src="istockphoto-517188688-612x612.jpg" alt="Image 4">
+      <img src="1379187-3840x2160-desktop-4k-scenery-background.jpg" alt="Image 5">
+    </div>
+  </div>
+</body>
+</html>
